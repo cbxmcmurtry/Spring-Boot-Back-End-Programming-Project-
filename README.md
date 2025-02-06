@@ -24,18 +24,18 @@ This project involved building a back-end system for a vacation booking applicat
 * Created DAO interfaces for database operations.
 * Tested the back-end integration with the front-end by running the MySQL script and verifying data mapping.
   
-## **Service Layer Development**
+### **Service Layer Development**
 * Built services to handle business logic, including a checkout process for carts.
 * Populated cart and customer entities with data and implemented order tracking functionality.
 * Verified proper data flow between front-end and back-end.
 
-## **Field Validation**
+### **Field Validation**
 * Added nullable = false to required fields in entity classes to enforce input validation.
 
-## **Controller Layer**
+### **Controller Layer**
 * Developed REST controllers to handle HTTP requests and responses, ensuring data transfer between front-end and back-end.
 
-## **Data Population**
+### **Data Population**
 * Used a Bootstrap class to populate the database with five sample customers.
 * Verified customer data by querying the MySQL database and testing the front-end interface.
 
